@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html  class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body class="page__body">
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="logo__img" src="https://via.placeholder.com/150x150" alt="Логотип города Седона">
+      </a>
+      <nav class="main-nav">
+        <!--Две кнопки или один Toggle-->
+        <button class="main-nav__button main-nav__button-open" type="button">Открыть меню</button>
+        <button class="main-nav__button main-nav__button-close" type="button">Закрыть меню</button>
+
+        <ul class="main-nav__list">
+          <li class="main-nav__item main-nav__item--left main-nav__item--active">
+            <a class="main-nav__item-link" href="#">
+              Главная
+            </a>
+          </li>
+          <li class="main-nav__item main-nav__item--left main-nav__item--active">
+            <a class="main-nav__item-link" href="#">
+              Фото и видео
+            </a>
+          </li>
+          <li class="main-nav__item main-nav__item--right main-nav__item--active">
+            <a class="main-nav__item-link" href="#">
+              Форма отзыва
+            </a>
+          </li>
+          <li class="main-nav__item main-nav__item--right main-nav__item--active">
+            <a class="main-nav__item-link" href="#">
+              Html Academy
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="page-header__photo page-header__image--next-pages">
+        <img class="page-header__text" src="https://via.placeholder.com/150x150" alt="Седона">
+      </div>
+    </header>
+
+    <main class="page-main">
+      <div class="page-main__title-wrapper">
+        <h1 class="page-main__title page-main__title--photo">Фото и видео</h1>
+        <p class="page-main__text page-main__text--photo">
+          Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике
+        </p>
+      </div>
+      <section class="gallery">
+        <h2 class="visually-hidden">Галерея</h2>
+        <ul class="gallery__list">
+          <li class="gallery__item">
+            <a class="gallery-link" href="#">
+              <img class="gallery__photo"src="https://via.placeholder.com/150x150" alt="Дорога на закате">
+            </a>
+            <div class="gallery__photo-signature">
+              <cite class="gallery__title">Неродные просторы</cite>
+              <p class="gallery__author">
+                Автор фото: Борис
+              </p>
+              <button class="button gallery__button"></button>
+              <!--Как делать лайки? Это счетчик или "стилизация страницы в Инстраграмм"-->
+            </div>
+          </li>
+          <li class="gallery__item">
+            <a class="gallery-link" href="#">
+              <img class="gallery__photo" src="https://via.placeholder.com/150x150" alt="Цветущие кактусы">
+            </a>
+            <div class="gallery__photo-signature">
+              <cite class="gallery__title">Местная растительность</cite>
+              <p class="gallery__author">
+                Автор фото: Сергей
+              </p>
+              <button class="button gallery__button"></button>
+            </div>
+          </li>
+          <li class="gallery__item">
+            <a class="gallery-link" href="#">
+              <img class="gallery__photo" src="https://via.placeholder.com/150x150" alt="Серпантин">
+            </a>
+            <div class="gallery__photo-signature">
+              <cite class="gallery__title">Дорога на север</cite>
+              <p class="gallery__author">
+                Автор фото: Петр
+              </p>
+              <button class="button gallery__button"></button>
+            </div>
+          </li>
+          <li class="gallery__item">
+            <a class="gallery-link" href="#">
+              <img class="gallery__photo" src="https://via.placeholder.com/150x150" alt="Природный мост в горах">
+            </a>
+            <div class="gallery__photo-signature">
+              <cite class="gallery__title">Мост дьявола</cite>
+              <p class="gallery__author">
+                Автор фото: Антон
+              </p>
+              <button class="button gallery__button"></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__hashtag hashtag">
+        <a class="hashtag__link" href="#">#visitsedona</a>
+      </div>
+
+      <section class="page-footer__social social">
+        <h3 class="visually-hidden">Следите за нами в социальных сетях</h3>
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--twitter" href="#">Twitter</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="#">Facebook</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="#">YouTube</a>
+          </li>
+        </ul>
+      </section>
+
+      <div class="page-footer__developer developer">
+        <a class="developer-link" href="#">
+          Разработано
+          <svg class="developer-logo"></svg>
+        </a>
+      </div>
+    </footer>
+
+  </body>
+</html>
